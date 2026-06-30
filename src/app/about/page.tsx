@@ -12,7 +12,7 @@ const data = [
   {
     title: "The Frontend",
     description:
-      "By 2022, I had enough data and I already bought my first desktop. I learnt programming basics with c++, then moved to the web, starting with HTML, CSS, and JavaScript. It was a bit hard at first, but that what made me enjoy more.",
+      "By 2022, I had enough data and I already bought my first desktop. I started with c++ basics, then moved to the web, with HTML, CSS, and JavaScript. It was a bit hard at first, but that what made me enjoy more.",
   },
   {
     title: "The Backend",
@@ -32,7 +32,7 @@ const data = [
   {
     title: "Beyond The Screen",
     description:
-      "I am a digital minimalist. I use a screen only when I am doing something important or working on a project, with that I fancy reading books, doodling, walking, running, always learning new things, and watching Youtube, and playing Clash of Clans. This year I will graduate from an English literature university, since Arabic is my first language. If you want to meet me somewhere, you will find me in nature, appreciating everything in there, and watching each sunrise and sunset.",
+      "I love reading books, doodling, walking, running, learning new things, and watching Youtube, and playing Clash of Clans. This year I will graduate from an English literature university, since Arabic is my first language. If you want to meet me somewhere, you will find me in nature, appreciating everything in there, and watching each sunrise and sunset.",
   },
 ];
 
