@@ -1,0 +1,81 @@
+.buttonRoot {
+  background-color: var(--foreground);
+  color: var(--background);
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border: 1px solid var(--foreground);
+  padding: 0.85rem;
+  cursor: pointer;
+  transition:
+    background-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.buttonRoot:hover {
+  background-color: transparent;
+  color: var(--foreground);
+}
+
+.buttonRoot:focus-visible {
+  outline: 2px solid var(--foreground);
+  outline-offset: 4px;
+}
+
+.buttonRoot:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.buttonRoot:active {
+}
+
+.primary {
+}
+
+.primary:hover:not(:disabled) {
+}
+
+.secondary {
+}
+
+.secondary:hover:not(:disabled) {
+}
+
+.outline {
+}
+
+.outline:hover:not(:disabled) {
+}
+
+.ghost {
+}
+
+.ghost:hover:not(:disabled) {
+}
+
+.sm {
+  height: 2rem;
+  padding: 0 var(--spacing-sm);
+  font-size: var(--font-size-xs);
+}
+
+.md {
+  height: 2.5rem;
+  padding: 0 var(--spacing-lg);
+  font-size: var(--font-size-sm);
+}
+
+.lg {
+  height: 3rem;
+  padding: 0 var(--spacing-xl);
+  font-size: var(--font-size-base);
+}
+
+.icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0;
+}
