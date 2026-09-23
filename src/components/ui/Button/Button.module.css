@@ -1,0 +1,90 @@
+.buttonRoot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 4px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  border: 1px solid transparent;
+  padding: 12px;
+  cursor: pointer;
+  border-radius: var(--radius);
+  transition: transform 0.2s ease;
+}
+
+.buttonRoot:hover {
+}
+
+.buttonRoot:active {
+  transform: scale(0.9);
+}
+
+.buttonRoot:focus-visible {
+  outline: 2px solid var(--foreground);
+  outline-offset: 4px;
+}
+
+.buttonRoot:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.primary {
+  background-color: var(--primary);
+  color: var(--white);
+}
+
+.primary:hover:not(:disabled) {
+}
+
+.secondary {
+  background-color: var(--background);
+  color: var(--text-muted);
+  border-color: var(--text-muted);
+}
+
+.secondary:hover:not(:disabled) {
+}
+
+.outline {
+}
+
+.outline:hover:not(:disabled) {
+}
+
+.ghost {
+}
+
+.ghost:hover:not(:disabled) {
+}
+
+.sm {
+  height: 2rem;
+  padding-block: var(--spacing-sm);
+  font-size: var(--font-size-xs);
+}
+
+.md {
+  height: 2.5rem;
+  padding-block: var(--spacing-lg);
+  font-size: var(--font-size-sm);
+}
+
+.lg {
+  height: 3rem;
+  padding-block: var(--spacing-xl);
+  font-size: var(--font-size-base);
+}
+
+.icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  padding: 0;
+}
+
+.iconWrapper > svg {
+  width: 20px;
+  height: 20px;
+}

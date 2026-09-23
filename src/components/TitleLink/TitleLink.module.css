@@ -1,0 +1,15 @@
+.link {
+  width: fit-content;
+}
+
+.title {
+  font-size: 50px;
+  font-family: var(--font-micro5);
+  text-transform: uppercase;
+}
+
+@media (min-width: 1024px) {
+  .title {
+    font-size: 74px;
+  }
+}

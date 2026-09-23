@@ -1,0 +1,11 @@
+.links {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.iconWrapper > svg {
+  color: var(--primary);
+  width: 20px;
+  height: 20px;
+}

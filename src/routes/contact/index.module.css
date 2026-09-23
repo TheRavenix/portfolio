@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.emailWrapper {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.email {
+  text-transform: lowercase;
+}
+
+.sendMailBtn {
+  width: fit-content;
+}

@@ -1,0 +1,17 @@
+.projectCards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 16px;
+}
+
+@media (min-width: 1024px) {
+  .projectCards {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1536px) {
+  .projectCards {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
