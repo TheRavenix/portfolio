@@ -21,21 +21,21 @@ const data: Project[] = [
       'This store was for a friend of mine, I had to implement an accounts showcase for his favourite game. I used Next js and first time using Supabase.',
   },
   {
-    id: 'taleswyn',
-    name: 'Taleswyn',
-    link: 'https://taleswyn.vercel.app',
-    description: 'Dark fantasy tales',
+    id: 'short-stories',
+    name: 'Short Stories',
+    link: null,
+    description: 'A reading platform with exciting stories',
     logoSrc: null,
     images: [
-      '/images/projects/taleswyn/1.png',
-      '/images/projects/taleswyn/2.png',
-      '/images/projects/taleswyn/3.png',
-      '/images/projects/taleswyn/4.png',
-      '/images/projects/taleswyn/5.png',
+      '/images/projects/short-stories/1.png',
+      '/images/projects/short-stories/2.png',
+      '/images/projects/short-stories/3.png',
+      '/images/projects/short-stories/4.png',
+      '/images/projects/short-stories/5.png'
     ],
     details:
-      'This personal project goes back to 2025, when I fall in love with writing. Built using Next js and first time replacing Tailwid with CSS modules, and learnt how to organize complex folders structure.',
-  },
+      'This personal project goes back to 2025, when I fall in love with writing. Built using Next js and first time replacing Tailwid with CSS modules, and learnt how to organize complex folders structure.'
+  }
 ]
 
 export const Route = createFileRoute('/projects/')({
